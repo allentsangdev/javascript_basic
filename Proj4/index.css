@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+}
+
+#fruit-shelf{
+    background-color: grey;
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 15px;
+}
+
+#apple-shelf{
+    background-color: coral;
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 15px;
+}
+
+#orange-shelf{
+    background-color: orange;
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+}
+
+button {
+    color: pink;
+    width: 200px;
+    background: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    transition: all 0.8s;
+  
+  }
