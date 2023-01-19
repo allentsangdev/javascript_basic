@@ -1,0 +1,59 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("images/background.png");
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+#message-el {
+  text-align: center;
+  font-style: italic;
+}
+
+button {
+  color: pink;
+  width: 150px;
+  background: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  transition: all 0.8s;
+
+}
+
+/*
+button:after {
+  content: "";
+  background: pink;
+  display: block;
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 17%;
+  margin-left: -7px!important;
+  margin-top: -3.5%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+*/
